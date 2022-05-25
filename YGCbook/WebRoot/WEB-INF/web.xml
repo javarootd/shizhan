@@ -4,6 +4,31 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	
+  <servlet>
+    <servlet-name>userRegister</servlet-name>
+    <servlet-class>co.jp.netwisdom.servlet.UserRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userRegister</servlet-name>
+    <url-pattern>/userRegister</url-pattern>
+  </servlet-mapping>
+	
+	
+	  <servlet>
+    <servlet-name>userSearch</servlet-name>
+    <servlet-class>co.jp.netwisdom.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userSearch</servlet-name>
+    <url-pattern>/userSearch</url-pattern>
+  </servlet-mapping>
+	
+	
+	
+	
+	
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
